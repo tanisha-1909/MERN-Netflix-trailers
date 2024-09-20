@@ -13,12 +13,12 @@ const Footer = () => {
 					</a>
 					. The source code is available on{" "}
 					<a
-						href='https://github.com/tanisha-1909'
+						href='https://github.com/tanisha-1909/MERN-Netflix-trailers'
 						target='_blank'
 						rel='noreferrer'
 						className='font-medium underline underline-offset-4'
 					>
-						to be updated
+						Github
 					</a>
 					.
 				</p>

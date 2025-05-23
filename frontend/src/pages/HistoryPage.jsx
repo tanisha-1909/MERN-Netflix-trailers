@@ -35,12 +35,14 @@ const HistoryPage = () => {
 	const handleDelete = async (entry) => {
 		try {
 			await axios.delete(`/api/v1/search/history/${entry.imdbID}`);
-			setSearchHistory(searchHistory.filter((item) => item.imdbID !== entry.imdbID));
+			
+			setSearchHistory((prevHistory) => prevHistory.filter((item) => item.imdbID !== entry.imdbID));
 		} catch (error) {
-            console.log(error.message)
+			console.log(error.message);
 			toast.error("Failed to delete search item");
 		}
 	};
+	
 
 	if (searchHistory?.length === 0) {
 		return (

@@ -11,15 +11,6 @@ const Footer = () => {
 						className='font-medium underline underline-offset-4'
 					>
 						Tanisha Mahavar
-					</a>{" "}
-					and{" "}
-					<a
-						href='https://github.com/yashverma24299'
-						target='_blank'
-						rel='noreferrer'
-						className='font-medium underline underline-offset-4'
-					>
-						Yash Verma
 					</a>
 					. The source code is available on{" "}
 					<a
